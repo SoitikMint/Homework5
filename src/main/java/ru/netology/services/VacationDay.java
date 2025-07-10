@@ -1,4 +1,5 @@
 package ru.netology.services;
+
 public class VacationDay {
     public int calculate(int income, int expenses, int threshold) {
         int count = 0;
@@ -12,6 +13,6 @@ public class VacationDay {
             }
 
         }
-    return count;
+        return count;
     }
 }
